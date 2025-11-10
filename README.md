@@ -1,5 +1,3 @@
-<div align="center">
-  
 # 🎯 PortHunt - Lightning-fast Port Scanner with Vulnerability Intelligence
 
 <div align="center">
