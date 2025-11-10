@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortHunt - Lightning-Fast Port Scanner</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Segoe UI', Arial; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #eee; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+        .container { max-width: 900px; padding: 40px 20px; text-align:center; }
+        h1 { font-size: 4rem; color: #ff6ec7; margin-bottom: 10px; text-shadow: 0 0 20px rgba(255,110,199,0.5); }
+        .tagline { font-size: 1.4rem; color: #aaa; margin-bottom: 40px; }
+        .features { display: flex; gap: 30px; margin: 40px 0; flex-wrap: wrap; justify-content: center; }
+        .feature { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 12px; border: 1px solid rgba(255,110,199,0.2); flex: 1; min-width: 220px; max-width: 280px; }
+        .feature h3 { color: #ff6ec7; margin-bottom: 10px; }
+        .cta { display: inline-block; padding: 18px 40px; background: linear-gradient(90deg, #ff6ec7, #ffd93d); color: #000; font-weight: bold; text-decoration: none; border-radius: 50px; font-size: 1.2rem; margin-top: 30px; transition: transform 0.3s; }
+        .cta:hover { transform: scale(1.05); }
+        .demo { margin: 50px 0; }
+        .demo img { max-width: 100%; border-radius: 12px; border: 2px solid #ff6ec7; box-shadow: 0 10px 40px rgba(255,110,199,0.3); }
+        footer { margin-top: 60px; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ PortHunt</h1>
+        <p class="tagline">Lightning-fast port scanner with real-time CVE intelligence</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🚀 Blazing Fast</h3>
+                <p>4 speed presets — scan 1000 ports in 2-15 seconds</p>
+            </div>
+            <div class="feature">
+                <h3>🔍 CVE Intel</h3>
+                <p>NVD + CIRCL + Exploit-DB aggregation in real-time</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Beautiful Reports</h3>
+                <p>HTML/JSON exports with clickable CVE links</p>
+            </div>
+            <div class="feature">
+                <h3>🎯 Range Scanning</h3>
+                <p>CIDR support + ping discovery for network audits</p>
+            </div>
+        </div>
+        
+        <a href="https://github.com/DEIN-USERNAME/PortHunt" class="cta">View on GitHub →</a>
+        
+        <div class="demo">
+            <h2 style="color:#ffd93d; margin-bottom:20px;">See it in action</h2>
+            <img src="demo.gif" alt="PortHunt Demo">
+        </div>
+        
+        <footer>
+            Made with 💜 by <a href="https://github.com/ctxzero" style="color:#ff6ec7">ctxzero</a> | MIT License
+        </footer>
+    </div>
+</body>
+</html>
